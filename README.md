@@ -1,11 +1,7 @@
-# Project Overview
-
-## Project Name
+# PHPBaaS
 PHPBaaS - PHP Backend as a Service
 
 ## Screenshots
-
-### Dashboard
 ![Dashboard Screenshot](assets/img/phpbaas-dashboard.png)
 
 ## Description
