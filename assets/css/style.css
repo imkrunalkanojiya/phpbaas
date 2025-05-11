@@ -1,0 +1,193 @@
+/* PHPBaaS Custom Styles */
+
+/* General Styles */
+body {
+    background-color: #f8f9fa;
+    color: #333;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+main {
+    flex: 1;
+}
+
+/* Navigation */
+.navbar-dark .navbar-brand {
+    font-weight: 700;
+}
+
+.nav-link.active {
+    font-weight: 600;
+}
+
+/* Cards */
+.card {
+    box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075);
+    margin-bottom: 1.5rem;
+}
+
+.card-header {
+    background-color: #f8f9fa;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.125);
+}
+
+/* Sidebar */
+.list-group-item-primary {
+    background-color: #7952b3;
+    color: white;
+}
+
+.list-group-item-action:hover {
+    background-color: #f0f0f0;
+}
+
+.list-group-item.active {
+    background-color: #7952b3;
+    border-color: #7952b3;
+}
+
+/* Dashboard Stats */
+.display-4 {
+    font-size: 2.5rem;
+    font-weight: 700;
+}
+
+/* Forms */
+.form-control:focus {
+    border-color: #7952b3;
+    box-shadow: 0 0 0 0.25rem rgba(121, 82, 179, 0.25);
+}
+
+/* Buttons */
+.btn-primary {
+    background-color: #7952b3;
+    border-color: #7952b3;
+}
+
+.btn-primary:hover, .btn-primary:focus {
+    background-color: #614092;
+    border-color: #614092;
+}
+
+.btn-outline-primary {
+    color: #7952b3;
+    border-color: #7952b3;
+}
+
+.btn-outline-primary:hover, .btn-outline-primary:focus {
+    background-color: #7952b3;
+    border-color: #7952b3;
+}
+
+/* Code blocks */
+pre {
+    background-color: #f5f5f5;
+    border-radius: 4px;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    overflow-x: auto;
+}
+
+code {
+    color: #e83e8c;
+    font-family: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+}
+
+pre code {
+    color: #212529;
+    font-size: 0.875rem;
+}
+
+/* Table styles */
+.table th {
+    font-weight: 600;
+    background-color: #f8f9fa;
+}
+
+/* API Testing Interface */
+.api-tester {
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 1rem;
+    margin-bottom: 1.5rem;
+}
+
+.api-tester .form-label {
+    font-weight: 600;
+}
+
+.api-response {
+    background-color: #1e1e1e;
+    color: #ffffff;
+    padding: 1rem;
+    border-radius: 4px;
+    overflow-x: auto;
+    font-family: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+    font-size: 0.875rem;
+    min-height: 100px;
+    max-height: 400px;
+    overflow-y: auto;
+}
+
+/* Documentation styles */
+.doc-section {
+    margin-bottom: 2rem;
+}
+
+.doc-section h3 {
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    padding-bottom: 0.5rem;
+    border-bottom: 1px solid #eee;
+}
+
+/* Avatar placeholder */
+.avatar-placeholder {
+    width: 100px;
+    height: 100px;
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+/* Pagination */
+.pagination .page-link {
+    color: #7952b3;
+}
+
+.pagination .page-item.active .page-link {
+    background-color: #7952b3;
+    border-color: #7952b3;
+}
+
+/* Footer */
+footer {
+    margin-top: auto;
+    padding: 1.5rem 0;
+    background-color: #f8f9fa;
+    border-top: 1px solid #dee2e6;
+}
+
+/* Custom Badge Colors */
+.badge.bg-primary {
+    background-color: #7952b3 !important;
+}
+
+/* Media queries */
+@media (max-width: 768px) {
+    .card-title {
+        font-size: 1.1rem;
+    }
+    .display-4 {
+        font-size: 2rem;
+    }
+}
+
+/* JSON Editor Style */
+.json-editor {
+    font-family: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+    height: 300px;
+    width: 100%;
+    resize: vertical;
+}
